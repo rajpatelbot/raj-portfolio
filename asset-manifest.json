@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Raj-Patel_Portfolio.git/static/css/main.dafbd9a1.css",
+    "main.js": "/Raj-Patel_Portfolio.git/static/js/main.4bb3862c.js",
+    "static/js/600.10d3a3d1.chunk.js": "/Raj-Patel_Portfolio.git/static/js/600.10d3a3d1.chunk.js",
+    "static/js/215.fa89c438.chunk.js": "/Raj-Patel_Portfolio.git/static/js/215.fa89c438.chunk.js",
+    "static/media/raj1Img.png": "/Raj-Patel_Portfolio.git/static/media/raj1Img.e171e07f7ad1ca3ab6c9.png",
+    "static/media/raj2Img.png": "/Raj-Patel_Portfolio.git/static/media/raj2Img.814897ab7ba3ac14f31b.png",
+    "index.html": "/Raj-Patel_Portfolio.git/index.html",
+    "static/media/about.md": "/Raj-Patel_Portfolio.git/static/media/about.507801eebb92f9d6887d.md",
+    "static/media/intro.md": "/Raj-Patel_Portfolio.git/static/media/intro.d55f4647a6d048c57515.md",
+    "main.dafbd9a1.css.map": "/Raj-Patel_Portfolio.git/static/css/main.dafbd9a1.css.map",
+    "main.4bb3862c.js.map": "/Raj-Patel_Portfolio.git/static/js/main.4bb3862c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dafbd9a1.css",
+    "static/js/main.4bb3862c.js"
+  ]
+}
