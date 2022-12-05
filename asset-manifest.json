@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/raj-portfolio/static/css/main.dafbd9a1.css",
-    "main.js": "/raj-portfolio/static/js/main.cf4e7cd1.js",
+    "main.css": "/raj-portfolio/static/css/main.c3dc1079.css",
+    "main.js": "/raj-portfolio/static/js/main.47d07796.js",
     "static/js/600.6b656049.chunk.js": "/raj-portfolio/static/js/600.6b656049.chunk.js",
     "static/js/215.1f80c7a9.chunk.js": "/raj-portfolio/static/js/215.1f80c7a9.chunk.js",
     "static/media/raj1Img.png": "/raj-portfolio/static/media/raj1Img.e171e07f7ad1ca3ab6c9.png",
@@ -9,11 +9,11 @@
     "static/media/about.md": "/raj-portfolio/static/media/about.507801eebb92f9d6887d.md",
     "index.html": "/raj-portfolio/index.html",
     "static/media/intro.md": "/raj-portfolio/static/media/intro.d55f4647a6d048c57515.md",
-    "main.dafbd9a1.css.map": "/raj-portfolio/static/css/main.dafbd9a1.css.map",
-    "main.cf4e7cd1.js.map": "/raj-portfolio/static/js/main.cf4e7cd1.js.map"
+    "main.c3dc1079.css.map": "/raj-portfolio/static/css/main.c3dc1079.css.map",
+    "main.47d07796.js.map": "/raj-portfolio/static/js/main.47d07796.js.map"
   },
   "entrypoints": [
-    "static/css/main.dafbd9a1.css",
-    "static/js/main.cf4e7cd1.js"
+    "static/css/main.c3dc1079.css",
+    "static/js/main.47d07796.js"
   ]
 }
