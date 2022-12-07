@@ -1,13 +1,105 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #EFEFEF !important;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Drawer */
+.MuiPaper-root {
+  background-color: #fafafa !important;
+  border-right: none !important;
+}
+
+.slide-header {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+/* Darkmode Btn */
+.MuiFormGroup-root {
+  position: absolute !important;
+  bottom: 20px !important;
+  right: 0;
+}
+
+.intro {
+  font-size: clamp(1rem, 1.2rem, 2vw);
+}
+
+.aboutInfo {
+  margin-top: 1.5rem;
+  margin-right: 3rem;
+  font-size: clamp(0.9rem, 1rem, 2vw);
+}
+
+.contactInfo {
+  margin-top: 1.5rem;
+  font-size: clamp(0.9rem, 1rem, 2vw);
+}
+
+.socialBtn {
+  cursor: pointer;
+  font-size: 1.6rem !important;
+  margin-right: 0.3rem !important;
+  text-decoration: none;
+}
+
+
+/* ------------- */
+/* media queries */
+/* ------------- */
+
+/* main section styling */
+@media only screen and (max-width: 990px) {
+  /* main div (homepage parent div) classname */
+  .css-1cg8a21 {
+    padding-left: 6rem !important;
+  }
+}
+
+@media only screen and (max-width: 867px) {
+  /* main div (homepage parent div) */
+  .css-1cg8a21 {
+    height: unset !important;
+    padding-left: unset !important;
+    flex-direction: column-reverse !important;
+  }
+
+  /* home page content's div className */
+  .css-3q8u7t {
+    text-align: center !important;
+  }
+
+  /* main section rajpatel1-Img styling */
+  .css-3q8u7t > img{
+    width: 20rem !important;
+  }
+
+  /* homepage buttons styling */
+  .css-w4z10b-MuiStack-root {
+    display: flex !important;
+    margin-top: unset !important;
+    justify-content: center !important;
+  }
+}
+
+/* homepage content & image styling */
+@media only screen and (max-width: 1120px) {
+  /* home page content's div className */
+  .css-3q8u7t {
+    margin-left: 0 !important;
+    margin: 0 !important;
+  }
 }
