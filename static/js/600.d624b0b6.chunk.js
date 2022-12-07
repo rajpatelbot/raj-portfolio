@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkraj_portfolio=self.webpackChunkraj_portfolio||[]).push([[600],{1600:function(a,e,o){a.exports=o.p+"static/media/about.0a1ea6b652dbe398d0a8.md"}}]);
