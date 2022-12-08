@@ -73,6 +73,7 @@ a {
   /* main div (homepage parent div) */
   .css-1cg8a21 {
     height: unset !important;
+    margin-top: 5rem !important;
     padding-left: unset !important;
     flex-direction: column-reverse !important;
   }

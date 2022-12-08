@@ -1,4 +1,4 @@
-import Main from "../containers/Main";
+import Main from "../layout/Main";
 import raj2Img from "../assets/images/raj2Img.png";
 import { useEffect, useState } from "react";
 import { SocialIcons } from "../apis/SocialIcons";

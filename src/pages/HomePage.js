@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import styled from "@emotion/styled";
 import raj1Img from "../assets/images/raj1Img.png";
 import { useEffect, useState } from "react";
-import Main from "../containers/Main";
+import Main from "../layout/Main";
 
 const ContactBtn = styled(Button)({
   color: "#F65158",
@@ -53,7 +53,7 @@ const HomePage = () => {
         <Stack
           spacing={1}
           direction="row"
-          style={{ width: "100%", marginTop: "1rem" }}
+          style={{ width: "100%", marginTop: "1rem", display: "grid", placeItems: "Center" }}
         >
           <ContactBtn variant="outlined">Contact me</ContactBtn>
           <DownloadBtn variant="contained">Download Resume</DownloadBtn>

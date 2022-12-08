@@ -1,6 +1,6 @@
 import contactImg from "../assets/images/contactPageImg.svg";
 import { useEffect, useState } from "react";
-import Main from "../containers/Main";
+import Main from "../layout/Main";
 import styled from "@emotion/styled";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
