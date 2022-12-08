@@ -53,7 +53,7 @@ const HomePage = () => {
         <Stack
           spacing={1}
           direction="row"
-          style={{ width: "100%", marginTop: "1rem", display: "grid", placeItems: "Center" }}
+          style={{ width: "100%", marginTop: "1rem" }}
         >
           <ContactBtn variant="outlined">Contact me</ContactBtn>
           <DownloadBtn variant="contained">Download Resume</DownloadBtn>
