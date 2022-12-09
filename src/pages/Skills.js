@@ -14,7 +14,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const Skills = () => {
   return (
     <Box sx={{ width: "90%", margin: "5rem auto" }}>
-      <h1 style={{ textAlign: "center", fontSize: "2em" }}>Skills</h1>
+      <h1 style={{ textAlign: "center", fontSize: "2em" }}>Skills💻</h1>
       <Box
         sx={{
           display: "flex",

@@ -85,7 +85,9 @@ a {
 
   /* main section rajpatel1-Img styling */
   .css-3q8u7t > img{
+    margin-left: unset !important;
     width: 20rem !important;
+    margin-top: 2rem;
   }
 
   /* homepage buttons styling */

@@ -44,7 +44,7 @@ const Main = ({ content, imgSrc, btn, isHomePage }) => {
           src={imgSrc}
           alt="rajpatel-image1"
           style={{
-            width: !isHomePage ? "28rem" : "35vw",
+            width: "33rem",
             marginLeft: !isHomePage ? "3rem" : "",
           }}
         />

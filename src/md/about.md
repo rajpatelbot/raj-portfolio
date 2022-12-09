@@ -1,4 +1,5 @@
-# About
+# About🤵
+--
 
 <div className="aboutInfo">
 ### Who i am?👨‍💼
