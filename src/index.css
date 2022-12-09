@@ -100,6 +100,16 @@ a {
   .css-1yjo05o {
     justify-content: center !important;
   }
+
+  .css-ub184k {
+    height: unset !important;
+    padding-left: unset !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .aboutInfo {
+    margin-right: unset !important;
+  }
 }
 
 /* homepage content & image styling */
