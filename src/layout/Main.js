@@ -33,8 +33,8 @@ const Main = ({ content, imgSrc, btn, isHomePage }) => {
         flexDirection: !isHomePage ? "row-reverse" : "row"
       }}
     >
-      <Item style={{ flexDirection: "column" }}>
-        <Markdown>{content}</Markdown>
+      <Item style={{ flexDirection: "column", padding: "0 2rem 1rem 2rem" }}>
+        <Markdown style={{textAlign: "start"}}>{content}</Markdown>
         <Box sx={{ flexDirection: 'row', width: "100%", marginTop: "0.5rem" }}> 
           {btn}
         </Box>

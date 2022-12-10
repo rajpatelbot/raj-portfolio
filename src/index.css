@@ -34,14 +34,29 @@ a {
   right: 0;
 }
 
+.name {
+  font-weight: 600;
+  font-size: clamp(2.2rem, 2.5rem, 3.2vw);
+}
+
+.name > span {
+  color: #F65158;
+}
+
 .intro {
-  font-size: clamp(1rem, 1.2rem, 2vw);
+  margin-top: 1rem;
+  font-size: clamp(1.3rem, 1.3rem, 2vw);
 }
 
 .aboutInfo {
   margin-top: 1.5rem;
   margin-right: 3rem;
   font-size: clamp(0.9rem, 1rem, 2vw);
+}
+
+.aboutInfo span {
+  font-weight: 600;
+  color: #2C68C2FF !important;
 }
 
 .contactInfo {
@@ -73,7 +88,7 @@ a {
   /* main div (homepage parent div) */
   .css-1cg8a21 {
     height: unset !important;
-    margin-top: 5rem !important;
+    margin-top: 3rem !important;
     padding-left: unset !important;
     flex-direction: column-reverse !important;
   }
@@ -87,20 +102,21 @@ a {
   .css-3q8u7t > img{
     margin-left: unset !important;
     width: 20rem !important;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   /* homepage buttons styling */
   .css-w4z10b-MuiStack-root {
     display: flex !important;
     margin-top: unset !important;
-    justify-content: center !important;
+    justify-content: start !important;
   }
 
   .css-1yjo05o {
     justify-content: center !important;
   }
 
+  /* about page styling (effect in all pages) */
   .css-ub184k {
     height: unset !important;
     padding-left: unset !important;
