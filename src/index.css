@@ -112,8 +112,9 @@ a {
     justify-content: start !important;
   }
 
+  /* button div's class */
   .css-1yjo05o {
-    justify-content: center !important;
+    justify-content: flex-start !important;
   }
 
   /* about page styling (effect in all pages) */
