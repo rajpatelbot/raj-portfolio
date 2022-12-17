@@ -2,8 +2,8 @@ import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import styled from "@emotion/styled";
 import raj1Img from "../assets/images/raj1Img.png";
-import { useEffect, useState } from "react";
 import Main from "../layout/Main";
+import useFetch from "../hook/useFetch";
 
 const ContactBtn = styled(Button)({
   color: "#F65158",
@@ -31,22 +31,11 @@ const DownloadBtn = styled(Button)({
 const HomePage = () => {
   let isHomePage = true;
   const file_name = "intro.md";
-  const [content, setContent] = useState("");
-
-  useEffect(() => {
-    import(`../md/${file_name}`)
-      .then((res) => {
-        fetch(res.default)
-          .then((res) => res.text())
-          .then((res) => setContent(res))
-          .catch((err) => console.log(err));
-      })
-      .catch((err) => console.log(err));
-  }, []);
+  const [data] = useFetch(file_name);
 
   return (
     <Main
-      content={content}
+      content={data}
       imgSrc={raj1Img}
       isHomePage={isHomePage}
       btn={

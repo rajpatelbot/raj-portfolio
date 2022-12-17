@@ -109,7 +109,7 @@ a {
   .css-w4z10b-MuiStack-root {
     display: flex !important;
     margin-top: unset !important;
-    justify-content: start !important;
+    justify-content: flex-start !important;
   }
 
   /* button div's class */

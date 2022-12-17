@@ -1,9 +1,9 @@
 import contactImg from "../assets/images/contactPageImg.svg";
-import { useEffect, useState } from "react";
 import Main from "../layout/Main";
 import styled from "@emotion/styled";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
+import useFetch from "../hook/useFetch";
 
 const SayHi = styled(Button)({
   color: "#F65158",
@@ -19,22 +19,11 @@ const SayHi = styled(Button)({
 const ContactPage = () => {
   let isHomePage = true;
   const file_name = "contact.md";
-  const [content, setContent] = useState("");
-
-  useEffect(() => {
-    import(`../md/${file_name}`)
-      .then((res) => {
-        fetch(res.default)
-          .then((res) => res.text())
-          .then((res) => setContent(res))
-          .catch((err) => console.log(err));
-      })
-      .catch((err) => console.log(err));
-  }, []);
+  const [data] = useFetch(file_name);
 
   return (
     <Main
-      content={content}
+      content={data}
       imgSrc={contactImg}
       isHomePage={isHomePage}
       btn={
