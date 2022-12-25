@@ -32,4 +32,4 @@ This is a portfolio website of Raj Patel
 <!-- LICENSE -->
 ## License
 
-Project is under the MIT License.
+Code is under the MIT License. See [LICENSE](./LICENSE) for more information.
