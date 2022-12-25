@@ -29,7 +29,4 @@ This is a portfolio website of Raj Patel
 
 Code is under the MIT License. See [LICENSE](./LICENCE) for more information.
 
-
 © 2022-23 Raj Patel ❤️
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
