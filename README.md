@@ -24,12 +24,12 @@ This is a portfolio website of Raj Patel
 <a href="https://twitter.com/rajpatelbot" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
 <a href="mailto:rajpatel158g@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 
-© 2022-23 Raj Patel ❤️
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
-
 <!-- LICENSE -->
 ## License
 
-Code is under the MIT License. See [LICENSE](./LICENSE) for more information.
+Code is under the MIT License. See [LICENSE](./LICENCE) for more information.
+
+
+© 2022-23 Raj Patel ❤️
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
