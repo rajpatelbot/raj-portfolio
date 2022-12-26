@@ -34,21 +34,23 @@ const HomePage = () => {
   const [data] = useFetch(file_name);
 
   return (
-    <Main
-      content={data}
-      imgSrc={raj1Img}
-      isHomePage={isHomePage}
-      btn={
-        <Stack
-          spacing={1}
-          direction="row"
-          style={{ width: "100%", marginTop: "1rem" }}
-        >
-          <ContactBtn variant="outlined">Contact me</ContactBtn>
-          <DownloadBtn variant="contained">Download Resume</DownloadBtn>
-        </Stack>
-      }
-    />
+    <>
+      <Main
+        content={data}
+        imgSrc={raj1Img}
+        isHomePage={isHomePage}
+        btn={
+          <Stack
+            spacing={1}
+            direction="row"
+            style={{ width: "100%", marginTop: "1rem" }}
+          >
+            <ContactBtn variant="outlined">Contact me</ContactBtn>
+            <DownloadBtn variant="contained">Download Resume</DownloadBtn>
+          </Stack>
+        }
+      />
+    </>
   );
 };
 
