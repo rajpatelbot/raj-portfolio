@@ -71,6 +71,23 @@ a {
   text-decoration: none;
 }
 
+.skills-badges {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skills-badges > p {
+  color: #fff;
+  margin: 3px;
+  font-size: 13px;
+  padding: 1px 8px;
+  border-radius: 10px;
+  background-color: #0288D1;
+}
 
 /* ------------- */
 /* media queries */

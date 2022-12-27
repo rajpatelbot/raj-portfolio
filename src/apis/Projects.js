@@ -15,6 +15,7 @@ export let Projects = [
       repo: "https://github.com/rajpatel17-bot/raj-portfolio",
     },
     image: portfolioImg,
+    skills: ["React.js", "Material UI", "CSS3"],
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export let Projects = [
       repo: "https://github.com/rajpatel17-bot/mern-note-taking-app",
     },
     image: noteappImg,
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "SCSS"],
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export let Projects = [
       repo: "https://github.com/rajpatel17-bot/Youtube-video-downloader",
     },
     image: yt_downloader,
+    skills: ["React.js", "Node.js", "Express.js", "Chakra UI"],
   },
   {
     id: 4,
@@ -48,6 +51,7 @@ export let Projects = [
       repo: "https://github.com/rajpatel17-bot/Js-book-finder",
     },
     image: bookFinder,
+    skills: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Google book API"],
   },
   {
     id: 5,
@@ -59,5 +63,6 @@ export let Projects = [
       repo: "https://github.com/rajpatel17-bot/programming-quiz-app",
     },
     image: quiz,
+    skills: ["HTML5", "CSS3", "JavaScript"],
   },
 ];
