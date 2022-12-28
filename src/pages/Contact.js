@@ -32,7 +32,10 @@ const ContactPage = () => {
           direction="row"
           style={{ width: "100%", marginTop: "1rem" }}
         >
-          <SayHi variant="outlined">Say Hello to me</SayHi>
+          <a href="mailto: rajpatel158g@gmail.com">
+            {" "}
+            <SayHi variant="outlined">Say Hello to me</SayHi>
+          </a>
           <a
             href="https://www.buymeacoffee.com/rajpatel17bot"
             target="_blank"

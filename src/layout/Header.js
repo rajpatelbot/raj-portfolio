@@ -17,6 +17,7 @@ import logo from "../assets/images/logo.png";
 import { navLinks } from "../apis/navLinks";
 import styled from "@emotion/styled";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
 
@@ -66,15 +67,18 @@ function Header(props) {
           >
             <MenuIcon />
           </IconButton>
-          
+
           <Typography
             variant="h6"
             component="div"
             sx={{ flexGrow: 1, display: "flex", alignItems: "center" }}
           >
-            <img style={{ width: "8rem" }} src={logo} alt="logo" />
+            <Link to={"/"}>
+              {" "}
+              <img style={{ width: "8rem" }} src={logo} alt="logo" />{" "}
+            </Link>
           </Typography>
-          
+
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navLinks.map((navLink) => (
               <Button key={navLink.key} sx={{ color: "#000" }}>
@@ -82,7 +86,7 @@ function Header(props) {
               </Button>
             ))}
           </Box>
-          
+
           <a
             href="https://github.com/rajpatel17-bot/raj-portfolio"
             target="_blank"

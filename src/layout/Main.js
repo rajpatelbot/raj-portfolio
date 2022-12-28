@@ -34,15 +34,23 @@ const Main = ({ content, imgSrc, btn, isHomePage }) => {
       }}
     >
       <Item style={{ flexDirection: "column", padding: "0 2rem 1rem 2rem" }}>
-        <Markdown style={{ textAlign: "start" }}>
-          {content}
-        </Markdown>
+        <Markdown style={{ textAlign: "start" }}>{content}</Markdown>
         <Box sx={{ flexDirection: "row", width: "100%", marginTop: "0.5rem" }}>
           {btn}
         </Box>
       </Item>
 
-      <Item>
+      <Item
+        style={
+          !isHomePage
+            ? {
+                display: "flex",
+                justifyContent: "flex-start",
+                paddingLeft: "2rem",
+              }
+            : { display: "" }
+        }
+      >
         <img
           src={imgSrc}
           alt="rajpatel-image1"

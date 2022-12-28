@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 // import DarkmodeSwich from './components/DarkmodeSwich';
 import HomePage from './pages/HomePage';
 import Header from './layout/Header';
+import Error from './pages/Error';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/skills" element={<Skills />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="*" element={<Error />} />
       </Routes>
       {/* <DarkmodeSwich /> */}
     </div>

@@ -89,6 +89,25 @@ a {
   background-color: #0288D1;
 }
 
+.errorPage {
+  height: 100vh;
+  display: flex;
+  line-height: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.errorPage > h1 {
+  color: #D81B60;
+  font-size: clamp(100px, 25vw, 200px);
+}
+
+.errorPage > h2 {
+  font-weight: 400;
+  font-size: clamp(30px, 4vw, 50px);
+}
+
 /* ------------- */
 /* media queries */
 /* ------------- */
@@ -112,8 +131,8 @@ a {
 
   /* home page content's div className */
   .css-3q8u7t {
-    justify-content: flex-start !important;
-    padding: 0.5rem 0 0.5rem 1rem  !important;
+    /* justify-content: flex-start !important; */
+    /* padding: 0.5rem 0 0.5rem 1rem  !important; */
     text-align: center !important;
   }
 

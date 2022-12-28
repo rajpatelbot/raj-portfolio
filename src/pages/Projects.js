@@ -2,7 +2,14 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Projects } from "../apis/Projects";
-import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material";
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Typography,
+} from "@mui/material";
 import { OpenSourceProjects } from "../apis/OpensourceProjects";
 
 export default function ResponsiveGrid() {
@@ -59,7 +66,7 @@ export default function ResponsiveGrid() {
 
       <h1 style={{ textAlign: "center", marginTop: "30px" }}>
         {" "}
-        OpenSource Contribution 🌎{" "}
+        OpenSource Contributions 🌎{" "}
       </h1>
       <Grid
         style={{
