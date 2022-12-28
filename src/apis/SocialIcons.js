@@ -21,7 +21,7 @@ export let SocialIcons = [
     key: 1,
     icon: (
       <a
-        href="https://twitter.com/raj_patel1515"
+        href="https://twitter.com/rajpatelbot"
         target="_blank"
         rel="noreferrer"
       >
@@ -53,7 +53,7 @@ export let SocialIcons = [
     key: 4,
     icon: (
       <a
-        href="https://www.instagram.com/mr__raj_17/"
+        href="https://www.instagram.com/rajpatelbot/"
         target="_blank"
         rel="noreferrer"
       >
