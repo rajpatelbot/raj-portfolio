@@ -81,8 +81,8 @@ a {
 }
 
 .skills-badges > p {
-  color: #fff;
   margin: 3px;
+  color: #fff;
   font-size: 13px;
   padding: 1px 8px;
   border-radius: 10px;
@@ -112,8 +112,16 @@ a {
 
   /* home page content's div className */
   .css-3q8u7t {
+    justify-content: flex-start !important;
+    padding: 0.5rem 0 0.5rem 1rem  !important;
     text-align: center !important;
   }
+
+  .css-8wguht {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  } 
 
   /* main section rajpatel1-Img styling */
   .css-3q8u7t > img{

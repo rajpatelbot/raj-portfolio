@@ -41,6 +41,7 @@ const Main = ({ content, imgSrc, btn, isHomePage }) => {
           {btn}
         </Box>
       </Item>
+
       <Item>
         <img
           src={imgSrc}
