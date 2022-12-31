@@ -6,6 +6,8 @@ import Main from "../layout/Main";
 import useFetch from "../hook/useFetch";
 import { Link } from "react-router-dom";
 
+import resume from "../assets/resume/resume.pdf";
+
 const ContactBtn = styled(Button)({
   color: "#F65158",
   borderColor: "#F65158",
@@ -50,7 +52,9 @@ const HomePage = () => {
               {" "}
               <ContactBtn variant="outlined">Contact me</ContactBtn>{" "}
             </Link>
-            <DownloadBtn variant="contained">Download Resume</DownloadBtn>
+            <a href={resume} download>
+              <DownloadBtn variant="contained">Download Resume</DownloadBtn>
+            </a>
           </Stack>
         }
       />

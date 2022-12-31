@@ -73,7 +73,7 @@ function Header(props) {
             component="div"
             sx={{ flexGrow: 1, display: "flex", alignItems: "center" }}
           >
-            <Link to={"/"}>
+            <Link style={{display: "flex"}} to={"/"}>
               {" "}
               <img style={{ width: "8rem" }} src={logo} alt="logo" />{" "}
             </Link>
