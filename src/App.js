@@ -1,16 +1,20 @@
+import React, { lazy, Suspense } from "react";
 import { Route, Routes } from 'react-router-dom';
-import About from './pages/About';
-import Skills from './pages/Skills';
-import Contact from './pages/Contact';
-import Projects from './pages/Projects';
-// import DarkmodeSwich from './components/DarkmodeSwich';
-import HomePage from './pages/HomePage';
 import Header from './layout/Header';
-import Error from './pages/Error';
+import Loader from './components/Loader';
+// import DarkmodeSwich from './components/DarkmodeSwich';
+
+const HomePage = lazy(() => import('./pages/HomePage'));
+const About = lazy(() => import('./pages/About'));
+const Skills = lazy(() => import('./pages/Skills'));
+const Projects = lazy(() => import('./pages/Projects'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Error = lazy(() => import('./pages/Error'));
 
 function App() {
   return (
     <div className="App">
+      <Suspense fallback={<Loader />}>
       <Header />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
@@ -19,8 +23,9 @@ function App() {
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="*" element={<Error />} />
-      </Routes>
+        </Routes>
       {/* <DarkmodeSwich /> */}
+      </Suspense>
     </div>
   );
 }
